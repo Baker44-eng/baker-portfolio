@@ -1,0 +1,194 @@
+/* General Style Reset */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: "Myriad Pro", sans-serif;
+}
+
+body {
+    background-color: #202020; /* Change as needed */
+    color: #FFFFFF; /* Default text color */
+}
+
+/* Header Section */
+header {
+    background-image: url("Header Bg100px.png");
+    background-size: cover;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 75px;
+    font-family: "Silom";
+    color: #FFF;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.004);
+    margin-bottom: 10px; /* Added space between title and subtitle */
+}
+
+h2 {
+    text-align: center;
+}
+
+.center-text {
+    font-size: 36px;
+    font-family: "Silom";
+    color: #FFF;
+    margin-top: 0; /* Ensure no extra margin */
+    text-align: center;
+}
+
+/* Navigation Menu */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 10px 0;
+    background-color: #000;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Photo Grid Section */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.photo-item {
+    position: relative;
+    text-align: center;
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+.price {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #000;
+    color: #FFF;
+    padding: 2%;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+
+footer h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;cm;
+
+}
+
+footer p {
+    color: #FFF;
+    text-align: right;
+}
+
+/* Pricing Information */
+.Pricing {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px auto;
+    
+    
+}
+table{
+        text-align: left;
+        margin: 0px auto;
+
+}
+
+
+
+
+
+/* Style for Inputs and Rectangles */
+.Rectangle_5, .Rectangle_6, .Rectangle_7, .Rectangle_8, .Rectangle_9 {
+    background-color: #000;
+    border: 1px solid #000;
+}
+
+.Rectangle_5 {
+    width: 1344px;
+    height: 130px;
+    margin: 20px auto;
+}
+
+ /* Basic reset */
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container styling for photo grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    max-width: 800px;
+    margin: 60px auto 80px; /* Increased bottom margin for space between photos and footer */
+}
+
+/* Image styling */
+.photo-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* About Me section styling */
+#aboutInfo {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: left; /* Aligns text to the left */
+    display: flex;
+    align-items: center;
+}
+
+/* Footer link styling */
+footer a {
+    color: #ccc;
+    text-decoration: none;
+    margin-left: 10px; /* Adds space between text and the edge */
+}
